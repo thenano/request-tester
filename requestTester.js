@@ -58,7 +58,7 @@ function RequestTester() {
     };
 
     this.send = function () {
-      return request(this.options).bind(this).spread(function (response) {
+      return request(this.options).bind(this).then(function (response) {
         this.checkExpectedStatus(response);
         this.checkJSONResponse(response);
         this.checkExpectedHeaders(response);
