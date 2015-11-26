@@ -64,6 +64,8 @@ function RequestTester() {
         this.checkExpectedHeaders(response);
         this.checkExpectedJSONs(response);
         return response;
+      }).catch(function (failure) {
+        jasmine.currentEnv_.fail(failure);
       });
     }
   };

@@ -26,7 +26,7 @@
   "homepage": "https://github.com/thenano/request-tester#readme",
   "dependencies": {
     "bluebird": "^3.0.5",
-    "jasmine-node": "^1.14.5",
+    "jasmine": "^2.3.2",
     "request": "^2.67.0"
   }
 }
