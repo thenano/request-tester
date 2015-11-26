@@ -1,0 +1,32 @@
+{
+  "name": "request-tester",
+  "version": "0.0.1",
+  "description": "Simple library to test HTTP requests, with jasmine and promises",
+  "main": "requestTester.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenano/request-tester.git"
+  },
+  "keywords": [
+    "request",
+    "test",
+    "promises",
+    "request-tester",
+    "jasmine",
+    "HTTP"
+  ],
+  "author": "Fernando Freire <thenano@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenano/request-tester/issues"
+  },
+  "homepage": "https://github.com/thenano/request-tester#readme",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.67.0"
+  }
+}
