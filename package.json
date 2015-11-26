@@ -1,6 +1,6 @@
 {
   "name": "request-tester",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple library to test HTTP requests, with jasmine and promises",
   "main": "requestTester.js",
   "scripts": {
